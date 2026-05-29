@@ -11,3 +11,29 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+body > * {
+  width: 100vw;
+  padding: 16px 15vw;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
