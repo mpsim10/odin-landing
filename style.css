@@ -37,3 +37,38 @@ nav ul {
   display: flex;
   gap: 32px;
 }
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 64px 15vw;
+}
+
+.hero .no-img {
+  padding-right: 16px;
+}
+
+.hero .main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero .secondary {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero img {
+  width: 50%;
+}
+
+.signup {
+  font-weight: bold;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 4px 24px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border-style: none;
+}
