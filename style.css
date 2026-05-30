@@ -157,3 +157,10 @@ nav ul {
 .call .signup {
   border: 1px solid #e5e7eb;
 }
+
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32px;
+}
