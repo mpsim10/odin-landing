@@ -1,3 +1,11 @@
+:root {
+  --border-radius: 8px;
+  --color-darkest: #1f2937;
+  --color-lighter: #e5e7eb;
+  --color-lightest: #f9faf8;
+  --color-pop: #3882f6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +25,7 @@ body > * {
 }
 
 header {
-  background-color: #1f2937;
+  background-color: var(--color-darkest);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,13 +33,13 @@ header {
 }
 
 .logo {
-  color: #f9faf8;
+  color: var(--color-lightest);
   font-size: 24px;
   font-weight: bold;
 }
 
 nav ul {
-  color: #e5e7eb;
+  color: var(--color-lighter);
   font-size: 18px;
   list-style-type: none;
   display: flex;
@@ -39,7 +47,7 @@ nav ul {
 }
 
 .hero {
-  background-color: #1f2937;
+  background-color: var(--color-darkest);
   display: flex;
   padding: 64px 15vw;
 }
@@ -55,13 +63,13 @@ nav ul {
 }
 
 .hero .main {
-  color: #f9faf8;
+  color: var(--color-lightest);
   font-size: 48px;
   font-weight: 900;
 }
 
 .hero .secondary {
-  color: #e5e7eb;
+  color: var(--color-lighter);
   font-size: 18px;
 }
 
@@ -72,10 +80,10 @@ nav ul {
 
 .signup {
   font-weight: bold;
-  color: #e5e7eb;
-  background-color: #3882f6;
+  color: var(--color-lighter);
+  background-color: var(--color-pop);
   padding: 8px 24px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border-style: none;
   width: fit-content;
   height: fit-content;
@@ -91,7 +99,7 @@ nav ul {
 }
 
 .info .main {
-  color: #1f2937;
+  color: var(--color-darkest);
   font-size: 36px;
   font-weight: 900;
 }
@@ -109,21 +117,21 @@ nav ul {
 }
 
 .tile img {
-  border-radius: 5px;
-  border: 2px solid #3882f6;
+  border: 3px solid var(--color-pop);
+  border-radius: var(--border-radius);
   width: 100%;
   aspect-ratio: 1;
   flex-shrink: 0;
 }
 
 .tile figcaption {
-  color: #1f2937;
+  color: var(--color-darkest);
   text-align: center;
 }
 
 .quote {
-  color: #1f2937;
-  background-color: #e5e7eb;
+  color: var(--color-darkest);
+  background-color: var(--color-lighter);
   padding: 96px 25vw;
 }
 
@@ -143,8 +151,8 @@ nav ul {
   margin: 72px;
   width: 70vw;
   padding: 36px 72px;
-  background-color: #3882f6;
-  border-radius: 5px;
+  background-color: var(--color-pop);
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -154,13 +162,17 @@ nav ul {
   flex: 2
 }
 
+.call p {
+  margin: 4px 0;
+}
+
 .call .signup {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--color-lighter);
 }
 
 footer {
-  color: #e5e7eb;
-  background-color: #1f2937;
+  color: var(--color-lighter);
+  background-color: var(--color-darkest);
   text-align: center;
   padding: 32px;
 }
