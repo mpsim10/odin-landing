@@ -44,8 +44,11 @@ nav ul {
   padding: 64px 15vw;
 }
 
-.hero .no-img {
+.hero .left {
   padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero .main {
@@ -61,6 +64,7 @@ nav ul {
 
 .hero img {
   width: 50%;
+  object-fit: cover;
 }
 
 .signup {
@@ -71,6 +75,7 @@ nav ul {
   margin-top: 8px;
   border-radius: 5px;
   border-style: none;
+  width: fit-content;
 }
 
 .info {
