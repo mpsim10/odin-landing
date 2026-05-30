@@ -44,10 +44,13 @@ nav ul {
   padding: 64px 15vw;
 }
 
-.hero .left {
-  padding-right: 16px;
+.left {
   display: flex;
   flex-direction: column;
+}
+
+.hero .left {
+  padding-right: 16px;
   justify-content: space-between;
 }
 
@@ -71,11 +74,11 @@ nav ul {
   font-weight: bold;
   color: #e5e7eb;
   background-color: #3882f6;
-  padding: 4px 24px;
-  margin-top: 8px;
+  padding: 8px 24px;
   border-radius: 5px;
   border-style: none;
   width: fit-content;
+  height: fit-content;
 }
 
 .info {
@@ -134,4 +137,23 @@ nav ul {
   font-weight: 800;
   font-size: 24px;
   text-align: right;
+}
+
+.call {
+  margin: 72px;
+  width: 70vw;
+  padding: 36px 72px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.call .left {
+  flex: 2
+}
+
+.call .signup {
+  border: 1px solid #e5e7eb;
 }
