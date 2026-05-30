@@ -32,6 +32,10 @@ header {
   padding: 16px 15vw;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .logo {
   color: var(--color-lightest);
   font-size: 24px;
@@ -44,6 +48,14 @@ nav ul {
   list-style-type: none;
   display: flex;
   gap: 32px;
+}
+
+nav a {
+  color: var(--color-lighter);
+}
+
+nav a:hover {
+  font-weight: bold;
 }
 
 .hero {
